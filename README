@@ -25,6 +25,21 @@ INSTALL
 
 gem install akitaonrails-activerecord-sqlserver-adapter --source=http://gems.github.com
 
+EXAMPLE
+=======
+database.yml
+adapter: sqlserver 
+host: localhost
+database: master
+username: sa
+password: p@ssw0rd
+
+OSX SUPPORT
+===========
+I was unable to get this working on OSX due to a dependency on Win32OLE. I did however have this working with ActiveRecord on Windows 7.
+
+For OSX and Microsoft SQL Server, I recommend looking at IronRuby which has built-in support.
+
 Contact:
 ========
 
